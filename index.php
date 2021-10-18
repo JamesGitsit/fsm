@@ -15,14 +15,14 @@ Use ModThree\FSM;
 
 $fsm = new FSM();
 
+echo 'Input: 1101<br>';
+echo 'Remainder: ' . $fsm->modThree("1101");
+echo '<p>';
+echo 'Input: 1110<br>';
+echo 'Remainder: ' . $fsm->modThree("1110");
+echo '<p>';
 echo 'Input: 1111<br>';
-echo 'Result: ' . $fsm->modThree("1111");
-echo '<p>';
-echo 'Input: 1010<br>';
-echo 'Result: ' . $fsm->modThree("1010");
-echo '<p>';
-echo 'Input: 1011<br>';
-echo 'Result: ' . $fsm->modThree("1011");
+echo 'Remainder: ' . $fsm->modThree("1111");
 echo '<p>';
 
 ?>
